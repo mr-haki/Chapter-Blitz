@@ -1,0 +1,251 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #b0b0b0;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 75px;
+}
+ 
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+p {
+    font-size: 20px;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.summary {
+    max-width: 800px;
+    margin: auto;
+}
+a {
+    color: #ffffff;
+    text-decoration:text-align;
+    background-blend-mode: white;
+}
+
+a:hover {
+    color: #ffa500;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.logo-title img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-title h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#cccccc;
+    font-size:22px;
+    max-width:700px;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.hero-btn{
+    display:inline-block;
+    background:#FFA500;
+    color:#111111;
+    padding:14px 28px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#ffbf47;
+}
+
+#featured{
+    margin-top:70px;
+}
+
+#featured h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.manga-card{
+    background:#1b1b1b;
+    max-width:700px;
+    margin:auto;
+    padding:30px;
+    border-radius:15px;
+    border:2px solid #2d2d2d;
+    transition:.3s;
+}
+
+.manga-card:hover{
+    transform:translateY(-5px);
+    border-color:#FFA500;
+}
+
+.manga-card h3{
+    font-size:34px;
+    margin-top:0;
+}
+
+.read-btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#FFA500;
+    color:#111111;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.read-btn:hover{
+    background:#ffbf47;
+}
+.chapter-link{
+    color:#ffffff;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.chapter-link:hover{
+    color:#FFA500;
+}
+
+.chapter-link{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 5px;
+}
+
+.chapter-link:hover{
+    color: orange;
+}
+
+.coming-soon{
+    color:#999999;
+    font-style:italic;
+    margin-top:15px;
+}
+
+#latest-drop{
+    margin-top:60px;
+}
+
+#latest-drop h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+html{
+    scroll-behavior:smooth;
+}
+a{font-style: italic;
+text-decoration-line: true;
+lighting-color: #111;}
+
+.search-section{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:30px 0;
+}
+
+#searchInput{
+    width:260px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#searchBtn{
+    background:#FFA500;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+#searchBtn:hover{
+    background:#ff8c00;
+}

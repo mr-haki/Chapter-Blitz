@@ -1,0 +1,197 @@
+.logo-title{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-title img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo-title h1{
+    font-size: 2rem;
+}
+ 
+/* =========================
+   GENERAL
+========================= */
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+    background:#1a1a1a;
+    padding:20px;
+    text-align:center;
+    border-bottom:2px solid orange;
+}
+
+.logo-title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-title img{
+    width:60px;
+    height:60px;
+}
+
+.logo-title h1{
+    margin:0;
+    font-size:2rem;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+/* =========================
+   SEARCH
+========================= */
+
+.search-section{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin:30px;
+}
+
+#searchInput{
+    width:260px;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#searchBtn{
+    padding:12px 20px;
+    background:orange;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#searchBtn:hover{
+    background:#ff8c00;
+}
+
+/* =========================
+   MAIN
+========================= */
+
+main{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+}
+
+/* =========================
+   MANGA INFO
+========================= */
+
+.manga-info{
+    background:#1b1b1b;
+    padding:25px;
+    margin:30px 0;
+    border-radius:12px;
+}
+
+.manga-info h2{
+    margin-top:0;
+}
+
+.rating{
+    color:gold;
+    font-weight:bold;
+}
+
+/* =========================
+   CHAPTER LIST
+========================= */
+
+.chapter-list{
+    margin:40px 0;
+}
+
+.chapter-card{
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:12px;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+.chapter-card:hover{
+    transform:translateY(-4px);
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.read-btn{
+    color:orange;
+    text-decoration:underline;
+    text-decoration-style:dashed;
+    text-underline-offset:4px;
+    font-weight:bold;
+}
+
+.read-btn:hover{
+    color:white;
+}
+
+/* =========================
+   NEXT DROP
+========================= */
+
+.next-drop{
+    background:#1b1b1b;
+    padding:20px;
+    border-radius:12px;
+    margin:40px 0;
+    text-align:center;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#bbb;
+}
+
+hr{
+    border:1px solid #333;
+}
+  
