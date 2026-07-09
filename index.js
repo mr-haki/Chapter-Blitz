@@ -5,7 +5,7 @@ const recommendations = document.getElementById("recommendations");
 const mangaList = [
     {
         name: "One Piece",
-        link: "one-piece/index-one-piece.html",
+        link: "index-one-piece.html",
         description: "Chapter summaries, spoilers and discussions."
     }
 ];
